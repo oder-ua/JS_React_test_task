@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.bgImage {
+  background-image: url('./images/history.jpg');
+  background-size: cover;
+  overflow: hidden;
+}
+
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  background-color: /*papayawhip*/ rebeccapurple;
+  width: 320px;
+  height: 180px;
+  padding: 35px 35px 35px 35px;
+  transform: translate(-50%, -50%);
+}
+
+.Rows {
+  font-family: 'Times New Roman';
+  font-size: 14pt;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+
+.ant-table-thead {
+  font-family: 'Georgia';
+  font-size: 14pt;
+  font-style: italic;
+  font-weight: 1000;
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
